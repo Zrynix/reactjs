@@ -1,0 +1,21 @@
+.chatbox {
+  height: 377px;
+  width: 241px;
+}
+
+.chatbox .rectangle {
+  background-color: white;
+  border-radius: 33px;
+  height: 377px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 241px;
+}
+.frame {
+  background-color: #8cc4f8;
+  height: 104px;
+  width: 241px;
+  position: absolute;
+  
+}
