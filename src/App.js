@@ -6,6 +6,9 @@ export const chatbox = () => {
     <div className="chatbox">
       <div className="rectangle" />
       <div className="frame" />
+      <div className="image">
+      <img src="./img poster.png"></img>
+    </div>
     </div>
   );
 };
