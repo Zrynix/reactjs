@@ -2,6 +2,9 @@
   height: 377px;
   width: 241px;
 }
+body{
+  background-color: black;
+}
 
 .chatbox .rectangle {
   background-color: white;
@@ -17,5 +20,22 @@
   height: 104px;
   width: 241px;
   position: absolute;
-  
+  border-radius: 33px;
+}
+.image {
+  height: 200px;
+  width: 200px;
+}
+
+.cls-1 {
+  fill: white
+}
+
+.chatbox img {
+  height: 90px;
+  left: 0;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  width: 200px;
 }
