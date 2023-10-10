@@ -23,16 +23,20 @@ body{
   border-radius: 33px;
 }
 .image {
-  height: 424px;
-  width: 800px;
+  height: 200px;
+  width: 200px;
 }
 
-.image .img {
-  height: 424px;
+.cls-1 {
+  fill: white
+}
+
+.chatbox img {
+  height: 90px;
   left: 0;
   object-fit: cover;
   position: fixed;
   top: 0;
-  width: 534px;
+  width: 200px;
 }
 
