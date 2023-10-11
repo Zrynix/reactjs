@@ -1,19 +1,17 @@
 import React, { useRef, useState } from 'react';
 import './App.css';
-import Logo from './logo';
+import Chatbox from './Chatbox';
+import ChatButton from './ChatButton';
 
-export const chatbox = () => {
+export const App = () => {
+  const [open,setOpen] = useState(false)
   return (
-    <div className="chatbox">
-      <div className="rectangle" />
-      <div className="frame">
-      <Logo />
-    </div>
-    </div>
+  <div>
+    <ChatButton onClick={() => setOpen(true)}/>
+    <Chatbox setOpen={setOpen} isOpen={open}/>
+  </div>
   );
 };
-// appsmen
-// test 66
-// ettetet
 
-export default chatbox;
+
+export default App;

@@ -1,6 +1,6 @@
 function Logo() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 341.9 72.05">
+    <svg className="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 341.9 72.05">
       <defs></defs>
       <g id="Laag_2" data-name="Laag 2">
         <g id="Layer_1" data-name="Layer 1">
